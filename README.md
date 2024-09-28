@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# Ryde - A Ride Sharing App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ryde is a fully-featured ride-hailing mobile application inspired by Uber. Built using **React Native**, **PostgreSQL**, **TypeScript**, **Stripe**, and **Tailwind CSS**, this app offers seamless, on-demand transportation solutions for both riders and drivers. Whether you need a quick trip across the city or a reliable platform for earning as a driver, Ryde provides an intuitive and efficient experience.
 
-## Get started
+## Features
 
-1. Install dependencies
+### Rider Features:
+- **Real-time Ride Booking**: Instantly book a ride by entering your pickup and destination locations.
+- **Live Driver Tracking**: Track your driver’s live location in real-time after booking a ride.
+- **Fare Estimation**: View a price estimate before confirming your ride.
+- **Payment Integration**: Secure online payments through **Stripe**, allowing riders to pay via credit card.
+- **Ride History**: View details of past rides, including distance traveled, fare breakdown, and trip time.
+- **Rating System**: Rate drivers and provide feedback to help improve the service.
 
-   ```bash
-   npm install
-   ```
+### Driver Features:
+- **Driver Dashboard**: Manage ride requests, accept or reject trips, and track earnings.
+- **Live Navigation**: Get route directions to the rider’s pickup point and destination.
+- **Earnings Reports**: View detailed earnings and past ride history.
+- **Availability Toggle**: Set your availability status to accept new rides or go offline.
 
-2. Start the app
+### Admin Panel:
+- **User Management**: Add, remove, or manage both riders and drivers.
+- **Ride Analytics**: View real-time data and statistics on rides, revenue, and user engagement.
+- **Payment Oversight**: Monitor transaction records and ensure successful payments between riders and drivers.
 
-   ```bash
-    npx expo start
-   ```
+## Tech Stack
+- **Frontend**: Built using **React Native** for cross-platform mobile development (iOS & Android).
+- **Backend**: Powered by **PostgreSQL** for database management, ensuring scalability and reliability.
+- **TypeScript**: Ensures type safety and improves code maintainability across the app.
+- **Tailwind CSS**: Used for styling to create a responsive, fast, and customizable UI.
+- **Stripe Integration**: Handles secure payments between riders and drivers.
 
-In the output, you'll find options to open the app in a
+## Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To get started with the project locally, follow these steps:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/ryde-app.git
+    cd ryde-app
+    ```
 
-## Get a fresh project
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-When you're ready, run:
+3. Set up the environment variables for **PostgreSQL** and **Stripe**:
+    - Create a `.env` file and add your configuration:
+      ```bash
+      DATABASE_URL=your_postgres_db_url
+      STRIPE_SECRET_KEY=your_stripe_key
+      ```
 
-```bash
-npm run reset-project
-```
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+5. For iOS:
+    ```bash
+    npx pod-install
+    npm run ios
+    ```
 
-## Learn more
+6. For Android:
+    ```bash
+    npm run android
+    ```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contributions
+We welcome contributions to make Ryde even better! Whether it’s fixing bugs, adding new features, or improving documentation, feel free to submit pull requests.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
