@@ -11,9 +11,6 @@
   <img src="https://img.shields.io/badge/NativeWind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="NativeWind" />
 </p>
 
-<p align="center">
-  <a href="https://ryde-five.vercel.app"><b>Live app</b></a>
-</p>
 
 ---
 
