@@ -133,7 +133,7 @@ npm run android                   # Android
 </p>
 
 <p>
-<a href="#">Portfolio</a> · <a href="#">LinkedIn</a> · <a href="https://github.com/LaeeqtheDev">GitHub</a> · laeeqthedev@gmail.com
+<a href="https://laeeqthedevportfolio.vercel.app">Portfolio</a> · <a href="https://linkedin.com/in/syed-laeeq-ahmed/">LinkedIn</a> · <a href="https://github.com/LaeeqtheDev">GitHub</a> · laeeqthedev@gmail.com
 </p>
 
 ## License
